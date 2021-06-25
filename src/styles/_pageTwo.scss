@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+
+  .section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+p {
+  padding: 20px;
+}
+
+.cruelty_text {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  .img_section {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+  }
+}
+
+.cruelty_img {
+  height: 80%;
+  width: 80%;
+}
+
+.cruelty_img_sec {
+  text-align: center;
+}
+
+figure {
+  float: left;
+  width: 30%;
+  font-size: 1.5vw;
+}

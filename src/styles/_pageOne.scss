@@ -1,0 +1,31 @@
+.row {
+  margin-top: 5vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.slika {
+  width: 80%;
+}
+
+button {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    display: block;
+    background-color: white;
+    margin-top: 20vw;
+    height: 20px;
+  }
+  .slika2 {
+    display: none;
+  }
+}
